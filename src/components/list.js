@@ -29,7 +29,7 @@ const ListTodos = (props) => {
                 onChange={(e) => checkTodos(e)}
                 checked=""
               />
-              <label for={e.title}> {e.title}</label>
+              <label for={e.title}>{e.title}</label>
               <br />
             </form>
           );
